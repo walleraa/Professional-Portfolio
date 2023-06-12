@@ -1,0 +1,30 @@
+.flex {
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+/* .flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+} */
+@media screen and (min-width:600px) {
+    #drop{
+        display:none;
+    }
+    .flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    nav li {
+        flex: 1 1 0px;
+    }
+}
+@media screen and (min-width:900px) {
+    #current {
+        flex: 2 1 0px;
+    }
+}

@@ -1,0 +1,140 @@
+header {
+   position: fixed;
+   background: #00274C;
+   border-radius: 5px;
+   border: grey solid 3px;
+   /* margin-bottom: 20px; */
+   padding: 5px;
+}
+
+body{
+   margin:5px;
+   padding:5px;
+   line-height:1.15;
+   color: #FFCB05;
+   background-color:#00274C; 
+}
+body a{
+   color: #00274C;
+}
+main {
+   padding-top: 20px;
+}
+ h1,h2, h3{
+    font-weight: bold;
+    margin-top:15px;
+    font-family: Copperplate, Arial;
+ }
+ nav li{
+    list-style-type: upper-roman;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #00274C;
+    border: #FFCB05 solid 1px;
+    margin: 5px;
+ }
+ nav li a {
+   color: #FFCB05;
+   font-family: "Times New Roman", Copperplate, Arial;
+ }
+ #current{
+    background-color: #FFCB05;
+    border-color: black;
+ }
+ #current a {
+   color: #00274C;
+ }
+
+p{
+     cursor: w-resize;
+     border-radius: 15px;
+     padding: 10px;
+     border: black dotted 1px;
+     margin: 0px 30px;
+     text-align: center;
+     font-family: Copperplate, Arial;
+     background-color: #FFCB05;
+     color: #00274C;
+ }
+
+ .skip{
+   position: absolute;
+   transition: top .5s ease-in 0s;
+   top: -60px;
+   border: black solid 1px;
+   border-radius: 5px;
+   background-color: white;
+ }
+ 
+ .skip:focus{
+   transition: top .5s ease-in 0s;
+   top: 5px;
+ }
+
+footer {
+   border: black solid 3px;
+   color: #00274C;
+   background-color: #FFCB05;
+}
+.fa-envelope {
+   color: #00274C;
+}
+.fa-github {
+   color: #00274C;
+}
+
+footer a {
+   color: #00274C;
+   
+}
+.misc img {
+   padding: 5px;
+   border: black solid 1px;
+   background-color: #FFCB05;
+}
+.grid img{
+   border: solid black 1px;
+   padding: 5px;
+   width: 95%;
+   height: 95%;
+   background-color: #FFCB05;
+   /* grid-column: 1 / span 1; */
+}
+.grid p{
+   border: none;
+   align-self: center;
+   border-radius: 0px;
+   margin-bottom: 20px;
+   font-family: Papyrus, Copperplate, Arial;
+   background-color: #00274C;
+   color: #FFCB05;
+   /* grid-column: 2/ span 1; */
+}
+
+@media screen and (min-width:600px) {
+   header {
+      padding: 0px;
+      width: 98%;
+   }
+   main {
+      padding-top: 60px;
+   }
+   #copyright {
+      float: right;
+   }
+}
+@media screen and (min-width:900px) {
+   /* main {
+      padding-top: 40px;
+   } */
+}
+ 
+@media screen and (prefers-reduced-motion) {
+   .skip {
+      transition: none;
+   }
+   .skip:focus {
+      transition: none;
+   }
+}

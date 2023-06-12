@@ -1,0 +1,14 @@
+.footer {
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 5px;
+}
+.footer span{
+    text-align: center;
+}
+
+@media screen and (min-width:600px) {
+    .footer{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
