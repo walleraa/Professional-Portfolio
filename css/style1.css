@@ -11,8 +11,9 @@ body{
    margin:5px;
    padding:5px;
    line-height:1.15;
+   /* color: #130ea2; */
    color: #FFCB05;
-   background-color:#00274C; 
+   background-color:#e5e7ea; 
 }
 body a{
    color: #00274C;
@@ -21,9 +22,10 @@ main {
    padding-top: 20px;
 }
  h1,h2, h3{
+    color: #00274C;
     font-weight: bold;
     margin-top:15px;
-    font-family: Copperplate, Arial;
+    font-family: Garamond, Arial;
  }
  nav li{
     list-style-type: upper-roman;
@@ -36,7 +38,7 @@ main {
  }
  nav li a {
    color: #FFCB05;
-   font-family: "Times New Roman", Copperplate, Arial;
+   font-family: Garamond, Arial;
  }
  #current{
     background-color: #FFCB05;
@@ -46,17 +48,17 @@ main {
    color: #00274C;
  }
 
-p{
-     cursor: w-resize;
-     border-radius: 15px;
-     padding: 10px;
-     border: black dotted 1px;
-     margin: 0px 30px;
-     text-align: center;
-     font-family: Copperplate, Arial;
-     background-color: #FFCB05;
-     color: #00274C;
- }
+#about {
+   cursor: w-resize;
+   border-radius: 15px;
+   padding: 10px;
+   border: black dotted 1px;
+   margin: 0px 30px;
+   text-align: center;
+   font-family: Garamond, Arial;
+  background-color: #FFCB05;
+   color: #00274C;
+}
 
  .skip{
    position: absolute;
@@ -92,24 +94,6 @@ footer a {
    padding: 5px;
    border: black solid 1px;
    background-color: #FFCB05;
-}
-.grid img{
-   border: solid black 1px;
-   padding: 5px;
-   width: 95%;
-   height: 95%;
-   background-color: #FFCB05;
-   /* grid-column: 1 / span 1; */
-}
-.grid p{
-   border: none;
-   align-self: center;
-   border-radius: 0px;
-   margin-bottom: 20px;
-   font-family: Papyrus, Copperplate, Arial;
-   background-color: #00274C;
-   color: #FFCB05;
-   /* grid-column: 2/ span 1; */
 }
 
 @media screen and (min-width:600px) {
