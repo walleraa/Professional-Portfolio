@@ -13,7 +13,7 @@ body{
    line-height:1.15;
    /* color: #130ea2; */
    color: #FFCB05;
-   background-color:#e5e7ea; 
+   background-color:white; 
 }
 body a{
    color: #00274C;
@@ -21,7 +21,7 @@ body a{
 main {
    padding-top: 50px;
 }
- h1,h2, h3{
+ h1,h2,h3{
     color: #00274C;
     text-align: center;
     font-weight: bold;
