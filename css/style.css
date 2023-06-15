@@ -64,7 +64,7 @@ main {
    margin: 0px 30px;
    text-align: center;
    font-family: Garamond, Arial;
-  background-color: #FFCB05;
+   background-color: #FFCB05;
    color: #00274C;
 }
 
@@ -108,7 +108,7 @@ footer a {
    margin: 10px 15% 10px 15%;
 }
 .download {
-   /* text-align: center; */
+   text-align: center;
    border: black solid 1px;
    color: #FFCB05;
    background: #00274C;
