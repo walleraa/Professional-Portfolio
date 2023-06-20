@@ -44,11 +44,38 @@
                     Introduction to the core concepts of AI, organized around building computational agents. Emphasizes the application of AI techniques. Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning.
                 </p>
             </div>
+
             <div class="course" id="485" tabindex="0"></div>
                 <h2>EECS 485 Web Systems</h2>
                 <p>
                     Concepts surrounding web systems, applications, and internet scale distributed systems. Topics covered include client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems. The course has substantial projects involving development of web applications and web systems.
                 </p>
+
+                <div class="proj">
+                    <div id="4855">
+                        <h3>Search Engine</h3>
+                        <p>
+                            Constructed a fully working search engine for Wikipedia pages using Python. Used a MapReduce framework to calculate tf-idf values, which were combined with pagerank scores for each query to produce an effective ordering. A back-end server was used to query tf-idf values and combine them with pagerank scores. A front-end server was used to display the GUI and any search results in order.
+                        </p>
+                    </div>
+                    <div id="4854">
+                        <h3>Simulating a Distributed System</h3>
+                        <p>
+                            Created a multi-threaded Python program that would simulate a MapReduce program. Simulated a manager that would listen for worker messages and send task assignments over TCP, and keep track of alive workers with heartbeats sent over UDP.
+                        </p>
+                    </div>
+                    <div id="4853">
+                        <h3>Insta485</h3>
+                        <p>
+                            Created an Instagram clone, dubbed "Insta 485,"  which went through the following versions:
+                            <ol>
+                                <li>V1 - Utilized a python script to read JSON input and display it on static pages using Jinja.</li>
+                                <li>V2 - Now a server-side dynamic website, Insta485 could use SQLite3 and Flask REST APIs to display templated pages filled in with different data from the database. With a live AWS EC3 instance, Insta485 could be used my multiple users at the same time.</li>
+                                <li>V3 - Now a client-side dynamic website, Insta485 utilized Javascript and React to bypass the need for a Jinja template. It still utilized SQLite3 and Flask REST APIs for a back-end, and could once again allow for a multiple users via a live AWS EC3 instance.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <div class="course" id="445" tabindex="0">
