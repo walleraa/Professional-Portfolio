@@ -19,6 +19,9 @@ iframe{
 h2, .url, .git{
     flex: 1 0 100%;
 }
+.url{
+    margin-top: 5px;
+}
 @media screen and (min-width:600px) {
     iframe{
         display: block;
