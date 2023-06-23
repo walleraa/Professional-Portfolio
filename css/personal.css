@@ -13,8 +13,13 @@ iframe{
     border: 2px solid black;
     flex: 1 0 0px;
 }
-.desc{
+.note {
+    display:none;
+    border: 2px solid black;
     flex: 1 0 0px;
+}
+.desc{
+    flex: 1 0 200px;
 }
 h2, .url, .git{
     flex: 1 0 100%;
@@ -22,8 +27,12 @@ h2, .url, .git{
 .url{
     margin-top: 5px;
 }
-@media screen and (min-width:600px) {
+@media screen and (min-width:700px) {
     iframe{
+        display: block;
+        padding-left: 5px;
+    }
+    .note {
         display: block;
         padding-left: 5px;
     }
@@ -35,4 +44,7 @@ h2, .url, .git{
     .desc{
         flex: 2 0 0px;
     }
+    /* .note{
+        min-width: 300px;
+    } */
  }
