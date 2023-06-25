@@ -1,3 +1,28 @@
-#aaron {
-    width: 35%
+
+#about {
+    /* display: inline-block; */
+    /* width: 60%; */
+    /* position: absolute; */
+    text-align: left;
+    margin: 16px auto;
 }
+#person {
+    position: relative;
+}
+@media screen and (min-width:400px) {
+    #pic {
+        min-width: 200px;
+        width: 40%;
+        /* display: inline-block; */
+        margin: 1em;
+        border: 1em;
+        padding: 1em;
+        float: left;
+        /* shape-outside: url('../images/Aaron.png'); */
+        shape-outside: polygon(0% 0%, 60% 3%, 61% 45%, 100% 80%, 60% 99%, 6% 100%);
+        clip-path: polygon(0% 0%, 60% 3%, 61% 45%, 100% 80%, 60% 99%, 6% 100%);
+        /* clip-path: url('../images/Aaron.png'); */
+        /* background-color: orange; */
+        /* background-image: url('../images/Aaron.png'); */
+    }
+ }

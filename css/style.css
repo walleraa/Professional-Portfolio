@@ -19,6 +19,8 @@ body a{
 }
 main {
    padding-top: 50px;
+   margin-left: 10%;
+   width: 80%;
 }
  h1,h2,h3{
     color: #00274C;
@@ -58,18 +60,6 @@ main {
  #current a {
    color: #00274C;
  }
-
-#about {
-   cursor: w-resize;
-   border-radius: 15px;
-   padding: 10px;
-   border: black dotted 1px;
-   margin: 0px 30px;
-   text-align: center;
-   font-family: Garamond, Arial;
-   background-color: #FFCB05;
-   color: #00274C;
-}
 
  .skip{
    position: absolute;
