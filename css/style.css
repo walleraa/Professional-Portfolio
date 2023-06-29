@@ -5,6 +5,7 @@ header {
    border: grey solid 3px;
    /* margin-bottom: 20px; */
    padding: 5px;
+   z-index: 5;
 }
 
 body{
@@ -21,6 +22,7 @@ main {
    padding-top: 50px;
    margin-left: 10%;
    width: 80%;
+   /* max-width: 640px; */
 }
  h1,h2,h3{
     color: #00274C;
@@ -99,17 +101,6 @@ footer a {
 .pdf {
    width: 70%;
    margin: 10px 15% 10px 15%;
-}
-.download {
-   text-align: center;
-   border: black solid 1px;
-   color: #FFCB05;
-   background: #00274C;
-   border-radius: 15px;
-   display: inline-block;
-   padding: 5px 10px 5px 10px;
-   width:20%;
-   margin: 2px 40% 2px 40%;
 }
 
 @media screen and (min-width:600px) {
