@@ -112,14 +112,6 @@ main {
         transform: translate(0, -40%);
         margin-top: -25%; */
     }
-    /* .wall {
-        shape-outside: polygon(0 0, 47% 0, 47% 100%, 0 100%);
-        clip-path: polygon(0 0, 47% 0, 47% 100%, 0 100%);
-        position: relative;
-        top: -20%;
-        height: 100%;
-        background: blue;
-    } */
     #skills h2 {
         left: -50.4%;
     }
@@ -181,5 +173,10 @@ main {
     }
     .pad {
         height: 288px;
+    }
+    .bubbles {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
     }
  }
