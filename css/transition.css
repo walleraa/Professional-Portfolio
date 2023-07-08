@@ -67,7 +67,7 @@
 
 #technologies:hover > h2 {
     display: block;
-    left: -48%;
+    left: -50%;
 }
 #technologies:hover > .title {
     display: block;
@@ -164,7 +164,7 @@
 
 #technologies:focus > h2 {
     display: block;
-    left: -48%;
+    left: -50%;
 }
 #technologies:focus > .title {
     display: block;
