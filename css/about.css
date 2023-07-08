@@ -1,8 +1,5 @@
 
 #about {
-    /* display: inline-block; */
-    /* width: 60%; */
-    /* position: absolute; */
     text-align: left;
     margin: 16px auto;
 }
@@ -26,7 +23,6 @@
     width: min-content;
  }
 .title h2 {
-    /* color: orange; */
     display: none;
 }
 .pad {
@@ -42,19 +38,13 @@ main {
     #pic {
         min-width: 200px;
         width: 40%;
-        /* display: inline-block; */
         margin: 1em;
         margin-left: 0px;
         border: 1em;
         padding: 1em;
         padding-left: 0px;
         float: left;
-        /* shape-outside: url('../images/Aaron.png'); */
         shape-outside: polygon(0% 0%, 60% 3%, 61% 45%, 100% 80%, 60% 99%, 6% 100%);
-        /* clip-path: polygon(0% 0%, 60% 3%, 61% 45%, 100% 80%, 60% 99%, 6% 100%); */
-        /* clip-path: url('../images/Aaron.png'); */
-        /* background-color: orange; */
-        /* background-image: url('../images/Aaron.png'); */
     }
     #about {
         margin: 0% 5% 0% 5%;
@@ -64,109 +54,43 @@ main {
         flex-direction: column;
     }
     .bubble {
-        /* shape-inside: circle(); */
         padding: 30px 0px 30px 0px;
         height: 300px;
         width: 300px;
-        background-color: #FFCB05;
+        background-color: #00274C;
         border: solid 1px black;
         border-radius: 50%;
         margin-bottom: 15px;
-        /* display: flex;
-        align-items: center; */
     }
     .title {
+        width: 301px;
+        height: 301px;
+        border-radius: 50%;
+        background-color: blue;
         position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        /* text-align: left; */
-        background-color: orange;
-        /* border-radius: 50%; */
-        /* shape-outside: circle(); */
-        shape-outside: circle();
-        clip-path: circle();
-        /* shape-outside: circle(60% at 25% 80%);
-        clip-path: circle(45% at 50% 50%); */
-        float: left;
-        margin-right: 1em;
-        padding: 3em;
-        /* padding-left: 0em; */
-        width: 150px;
-        /* vertical-align: middle; */
+        top: -13%;
     }
     .title h2 {
-        color: orange;
-        display: inline-block;
-        /* display: none; */
+        display: none;
+        color: blue;
     }
+    
     .bubble h2 {
-        position: relative;
-        left: -48.4%;
-        top: 42%;
+        transition: 0s visibility;
+        visibility: hidden;
     }
     .bubble ul {
+        transition: 0s visibility;
         position: relative;
         text-align: left;
         margin-left: 40%;
-        /* top: 50%; 
-        transform: translate(0, -40%);
-        margin-top: -25%; */
-    }
-    #skills h2 {
-        left: -50.4%;
-    }
-    #skills .title {
-        margin: 0em 2.5em -.5em 0em;
-    }
-    #skills ul {
-        top: 50%; 
-        transform: translate(0, -50%);
-        margin-top: -15%;
-    }
-
-    #languages h2 {
-        left: -50%;
-    }
-    #languages .title {
-        margin: 0em 1.5em 1.5em 0em;
-        /*top right bottom left*/
-        /* height: 150px; */
-    }
-    #languages ul {
-        top: 50%; 
-        transform: translate(5%, -40%);
-        margin-top: -20%;
-        margin-left: 40%;
-    }
-
-    #technologies h2 {
-        left: -48%;
-    }
-    #languages .title {
-        margin: 0em 1.5em 1.5em 0em;
-    }
-    #technologies ul {
-        top: 50%; 
-        transform: translate(0, -34%);
-        margin-top: -25%;
-    }
-
-    #libraries h2 {
-        left: -48.8%;
-    }
-    #libraries .title {
-        margin: 0em 1.5em 0em 0em;
-    }
-    #libraries ul {
-        top: 50%; 
-        transform: translate(10%, -50.4%);
-        margin-top: -12.5%;
+        visibility: hidden;
     }
  }
+
  @media screen and (min-width:800px) {
     #pic {
         height: 255px;
-        /* clip-path: none; */
     }
     #aaron {
         height: 255px

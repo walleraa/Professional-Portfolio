@@ -1,0 +1,210 @@
+/**********************
+*        HOVER        *
+**********************/
+.bubble:hover {
+    background-color: #FFCB05;
+}
+
+.bubble:hover > .title {
+    border-radius: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    shape-outside: circle();
+    clip-path: circle();
+    float: left;
+    margin-right: 1em;
+    padding: 3em;
+    animation-name: shrink;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.bubble:hover >  .title h2 {
+    animation-name: camo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    display: inline-block;
+}
+.bubble:hover > h2 {
+    transition-delay: 1s;
+    position: relative;
+    left: -48.4%;
+    top: 42%; 
+    visibility: visible;
+}
+.bubble:hover > ul {
+    transition-delay: 1s;
+    visibility: visible;
+}
+
+#skills:hover > h2 {
+    left: -50.4%;
+}
+#skills:hover > .title {
+    display: block;
+    margin: 0em 2.5em -.5em 0em;
+}
+#skills:hover > ul {
+    top: 50%; 
+    transform: translate(0, -50%);
+    margin-top: -15%;
+}
+
+#languages:hover > h2 {
+    display: block;
+    left: -50%;
+}
+#languages:hover > .title {
+    display: block;
+    margin: 0em 1.5em 1.5em 0em;
+}
+#languages:hover > ul {
+    display: block;
+    top: 50%; 
+    transform: translate(5%, -40%);
+    margin-top: -20%;
+    margin-left: 40%;    
+}
+
+#technologies:hover > h2 {
+    display: block;
+    left: -48%;
+}
+#technologies:hover > .title {
+    display: block;
+    margin: 0em 1.5em 1.5em 0em;
+}
+#technologies:hover > ul {
+    display: block;
+    top: 50%; 
+    transform: translate(0, -34%);
+    margin-top: -25%;
+}
+
+#libraries:hover > h2 {
+    display: block;
+    left: -48.8%;
+}
+#libraries:hover > .title {
+    display: block;
+    margin: 0em 1.5em 0em 0em;
+}
+#libraries:hover ul {
+    display: block;
+    top: 50%;
+    transform: translate(10%, -50.4%);
+    margin-top: -12.5%;
+}
+
+/**********************
+*        FOCUS        *
+**********************/
+.bubble:focus {
+    background-color: #FFCB05;
+}
+
+.bubble:focus > .title {
+    border-radius: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    shape-outside: circle();
+    clip-path: circle();
+    float: left;
+    margin-right: 1em;
+    padding: 3em;
+    animation-name: shrink;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.bubble:focus >  .title h2 {
+    animation-name: camo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    display: inline-block;
+}
+.bubble:focus > h2 {
+    transition-delay: 1s;
+    position: relative;
+    left: -48.4%;
+    top: 42%; 
+    visibility: visible;
+}
+.bubble:focus > ul {
+    transition-delay: 1s;
+    visibility: visible;
+}
+
+#skills:focus > h2 {
+    left: -50.4%;
+}
+#skills:focus > .title {
+    display: block;
+    margin: 0em 2.5em -.5em 0em;
+}
+#skills:focus > ul {
+    top: 50%; 
+    transform: translate(0, -50%);
+    margin-top: -15%;
+}
+
+#languages:focus > h2 {
+    display: block;
+    left: -50%;
+}
+#languages:focus > .title {
+    display: block;
+    margin: 0em 1.5em 1.5em 0em;
+}
+#languages:focus > ul {
+    display: block;
+    top: 50%; 
+    transform: translate(5%, -40%);
+    margin-top: -20%;
+    margin-left: 40%;    
+}
+
+#technologies:focus > h2 {
+    display: block;
+    left: -48%;
+}
+#technologies:focus > .title {
+    display: block;
+    margin: 0em 1.5em 1.5em 0em;
+}
+#technologies:focus > ul {
+    display: block;
+    top: 50%; 
+    transform: translate(0, -34%);
+    margin-top: -25%;
+}
+
+#libraries:focus > h2 {
+    display: block;
+    left: -48.8%;
+}
+#libraries:focus > .title {
+    display: block;
+    margin: 0em 1.5em 0em 0em;
+}
+#libraries:focus ul {
+    display: block;
+    top: 50%;
+    transform: translate(10%, -50.4%);
+    margin-top: -12.5%;
+}
+
+/**********************
+*      ANIMATIONS     *
+**********************/
+@keyframes shrink {
+    to{
+        background-color: orange;
+        width: 150px;
+        height: 136.7px;
+    }
+}
+
+@keyframes camo {
+    to{
+        color: orange;
+    }
+}
