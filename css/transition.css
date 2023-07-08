@@ -193,6 +193,20 @@
 }
 
 /**********************
+*    REDUCED MOTION   *
+**********************/
+@media screen and (prefers-reduced-motion: reduce) {
+    .bubbles h2 {
+        transition: none;
+    }
+    .bubbles ul {
+        transition: none;
+    }
+    * {
+        animation-duration: 0s !important;
+    }
+}
+/**********************
 *      ANIMATIONS     *
 **********************/
 @keyframes shrink {
