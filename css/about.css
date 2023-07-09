@@ -62,19 +62,6 @@ main {
         border-radius: 50%;
         margin-bottom: 15px;
     }
-    .title {
-        width: 301px;
-        height: 301px;
-        border-radius: 50%;
-        background-color: blue;
-        position: relative;
-        top: -13%;
-    }
-    .title h2 {
-        display: none;
-        color: blue;
-    }
-    
     .bubble h2 {
         transition: 0s visibility, .5s font-size ease .25s;
         visibility: hidden;
@@ -87,6 +74,37 @@ main {
         margin-left: 40%;
         visibility: hidden;
         font-size: 1px;
+    }
+
+    .title {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: #00274C;
+        position: relative;
+        top: -13%;
+    }
+    .title h2 {
+        display: inline-block;
+        visibility: visible;
+        position: relative;
+        top: 140.15px;
+        font-size: 18px;
+        color: #FFCB05;
+        transition: 0s visibility;
+    }
+
+    #skills .title h2 {
+        left: 126.485px;
+    }
+    #languages .title h2 {
+        left: 102.49px;
+    }
+    #technologies .title h2 {
+        left: 93.66px;
+    }
+    #libraries .title h2 {
+        left: 111.98px;
     }
  }
 
