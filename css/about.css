@@ -1,4 +1,4 @@
-
+/* CSS for the mobile view */
 #about {
     text-align: left;
     margin: 16px auto;
@@ -34,7 +34,9 @@ li {
 main {
     border: 1px solid black;
 }
-@media screen and (min-width:400px) {
+
+/* CSS for the tablet view */
+@media screen and (min-width:600px) {
     #pic {
         min-width: 200px;
         width: 40%;
@@ -63,12 +65,11 @@ main {
         margin-bottom: 15px;
     }
     .bubble h2 {
-        transition: 0s visibility, .5s font-size ease .25s;
+        
         visibility: hidden;
         font-size: 1px;
     }
     .bubble ul {
-        transition: 0s visibility, .5s font-size ease .25s;
         position: relative;
         text-align: left;
         margin-left: 40%;
@@ -108,7 +109,8 @@ main {
     }
  }
 
- @media screen and (min-width:800px) {
+ /* CSS for the desktop view */
+ @media screen and (min-width:900px) {
     #pic {
         height: 255px;
     }

@@ -1,3 +1,5 @@
+/* Media query for the entire file since animations are only for tablets and larger */
+@media screen and (min-width:600px) {
 .bubble .title {
     animation-name: grow;
     animation-duration: .1s;
@@ -6,7 +8,12 @@
 
 /**********************
 *        HOVER        *
+*---------------------*
+*  Triggered when a   *
+*   user's mouse is   *
+*      a bubble       *
 **********************/
+/* General CSS for bubbles */
 .bubble:hover {
     background-color: #FFCB05;
 }
@@ -25,13 +32,10 @@
     animation-fill-mode: forwards;
 }
 .bubble:hover >  .title h2 {
-    /* animation-name: camo;
-    animation-duration: 1s;
-    animation-fill-mode: forwards; */
     visibility: hidden;
 }
 .bubble:hover > h2 {
-    /* transition-delay: 1s; */
+    transition: .5s visibility, .5s font-size ease .25;
     position: relative;
     left: -48.4%;
     top: 42%; 
@@ -39,11 +43,12 @@
     font-size: 18px;
 }
 .bubble:hover > ul {
-    /* transition-delay: 1s; */
+    transition: .5s visibility, .5s font-size ease .25s;
     visibility: visible;
     font-size: 16px;
 }
 
+/* CSS measurements to center each specific bubble */
 #skills:hover > h2 {
     left: -50.4%;
 }
@@ -105,7 +110,13 @@
 
 /**********************
 *        FOCUS        *
+*---------------------*
+*  For accessibility  *
+* Allows users to tab *
+*  through the page   *
+*   with animations   *
 **********************/
+/* General CSS for bubbles */
 .bubble:focus {
     background-color: #FFCB05;
 }
@@ -124,13 +135,9 @@
     animation-fill-mode: forwards;
 }
 .bubble:focus >  .title h2 {
-    /* animation-name: camo;
-    animation-duration: 1s;
-    animation-fill-mode: forwards; */
     visibility: hidden;
 }
 .bubble:focus > h2 {
-    /* transition-delay: 1s; */
     position: relative;
     left: -48.4%;
     top: 42%; 
@@ -138,11 +145,11 @@
     font-size: 18px;
 }
 .bubble:focus > ul {
-    /* transition-delay: 1s; */
     visibility: visible;
     font-size: 16px;
 }
 
+/* CSS measurements to center each specific bubble */
 #skills:focus > h2 {
     left: -50.4%;
 }
@@ -218,6 +225,10 @@
 }
 /**********************
 *      ANIMATIONS     *
+*---------------------*
+*  Used for effects   *
+*   too complex for   *
+*  normal transitions *
 **********************/
 @keyframes shrink {
     from {
@@ -249,9 +260,5 @@
         background-color: #00274C;
     }
 }
-/* 
-@keyframes camo {
-    to{
-        color: orange;
-    }
-} */
+
+}
