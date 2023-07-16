@@ -35,7 +35,7 @@
     visibility: hidden;
 }
 .bubble:hover > h2 {
-    transition: .5s visibility, .5s font-size ease .25;
+    transition: .5s visibility .25s, .5s font-size ease .25s;
     position: relative;
     left: -48.4%;
     top: 42%; 
@@ -138,6 +138,7 @@
     visibility: hidden;
 }
 .bubble:focus > h2 {
+    transition: .5s visibility .5s, .5s font-size ease .25s;
     position: relative;
     left: -48.4%;
     top: 42%; 
@@ -176,7 +177,7 @@
     top: 50%; 
     transform: translate(5%, -40%);
     margin-top: -20%;
-    margin-left: 40%;    
+    margin-left: 40%;
 }
 
 #technologies:focus > h2 {
