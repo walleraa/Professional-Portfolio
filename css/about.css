@@ -67,6 +67,7 @@ main {
     .bubble h2 {
         visibility: hidden;
         font-size: 1px;
+        color: #FFCB05;
     }
     .bubble ul {
         position: relative;
