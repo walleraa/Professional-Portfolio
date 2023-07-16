@@ -14,7 +14,7 @@ body{
    padding:5px;
    line-height:1.15;
    color: #FFCB05;
-   background-color:white; 
+   background-color:rgba(91, 88, 88, 0.706); 
 }
 body a{
    color: #00274C;
@@ -23,6 +23,7 @@ main {
    padding-top: 50px;
    margin-left: 10%;
    width: 80%;
+   background-color: white;
 }
  h1,h2,h3{
     color: #00274C;
