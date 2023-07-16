@@ -12,9 +12,32 @@ ul{
 .blank{
     margin-top: 25px;
 }
-.company{
+.info{
     color: #00274C;
 }
 #award {
     top: -60px;
+}
+.company {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/******************
+* PARALLAX EFFECT *
+******************/
+#BNY .logo{
+    background-image: url(../images/bnym.png)
+}
+#UKG .logo{
+    background-image: url(../images/ukg.png);
+}
+.logo{
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    height: 400px;
 }
