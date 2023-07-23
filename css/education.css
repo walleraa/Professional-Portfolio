@@ -10,3 +10,60 @@ p{
 ul {
     color: #00274C;
 }
+.course, .award {
+    border: 1px solid #00274C;
+    margin: 5px;
+    text-align: center;
+}
+#about {
+    margin: 5px;
+}
+.expand {
+    color: #00274C;
+    display: inline-block;
+    border: 1px solid #00274C;
+    margin: 0px auto 5px auto;
+    padding: 5px;
+}
+.course p, .award p {
+    margin-bottom: 5px;
+}
+#blanket {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: #2d2d2d95;
+}
+
+/*************
+*    GRID    *
+*************/
+#courses, #awards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width:900px) {
+    #courses, #awards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/*************
+*  PROJECTS  *
+*************/
+.proj {
+    display: none;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    max-height: 70%;
+    margin: auto;
+    background-color: white;
+    border: 3px solid #00274C;
+    z-index: 2;
+}

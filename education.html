@@ -31,6 +31,7 @@
     </header>
     
     <main id="main">
+        <div id="blanket"></div>
         <h1 id="coursework">Coursework and Projects</h1>
         <div id="about">
             <p>
@@ -38,33 +39,35 @@
             </p>
         </div>
         <div id="courses">
-            <div class="course" id="492" tabindex="0">
+            <div class="course" id="c492" tabindex="0">
                 <h2>EECS 492 - Introduction to Artificial Intelligence</h2>
                 <p>
                     Introduction to the core concepts of AI, organized around building computational agents. Emphasizes the application of AI techniques. Topics include search, logic, knowledge representation, reasoning, planning, decision making under the uncertainty, and machine learning.
                 </p>
             </div>
 
-            <div class="course" id="485" tabindex="0"></div>
+            <div class="course" id="c485" tabindex="0">
                 <h2>EECS 485 Web Systems</h2>
                 <p>
                     Concepts surrounding web systems, applications, and internet scale distributed systems. Topics covered include client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems. The course has substantial projects involving development of web applications and web systems.
                 </p>
-
-                <div class="proj">
-                    <div id="4855">
+                <div class="expand" id="e485" tabindex="0">
+                    Expand Projects
+                </div>
+                <div class="proj" id="p485">
+                    <div id="p4855">
                         <h3>Search Engine</h3>
                         <p>
-                            Constructed a fully working search engine for Wikipedia pages using Python. Used a MapReduce framework to calculate tf-idf values, which were combined with pagerank scores for each query to produce an effective ordering. A back-end server was used to query tf-idf values and combine them with pagerank scores. A front-end server was used to display the GUI and any search results in order.
+                            Constructed a fully working search engine for Wikipedia pages using Python. Used a MapReduce framework to calculate tf-idf values, which were combined with pagerank scores for each query to produce an effective ordering. Used a back-end server to query tf-idf values and combine them with pagerank scores, and a front-end server to display the GUI and any search results in order.
                         </p>
                     </div>
-                    <div id="4854">
+                    <div id="p4854">
                         <h3>Simulating a Distributed System</h3>
                         <p>
                             Created a multi-threaded Python program that would simulate a MapReduce program. Simulated a manager that would listen for worker messages and send task assignments over TCP, and keep track of alive workers with heartbeats sent over UDP.
                         </p>
                     </div>
-                    <div id="4853">
+                    <div id="p4853">
                         <h3>Insta485</h3>
                         <p>
                             Created an Instagram clone, dubbed "Insta 485,"  which went through the following versions:
@@ -78,58 +81,85 @@
                 </div>
             </div>
 
-            <div class="course" id="445" tabindex="0">
+            <div class="course" id="c445" tabindex="0">
                 <h2>EECS 445 - Machine Learning</h2>
                 <p>
                     Theory and implementation of state-of-the-art machine learning algorithms for large-scale real-world applications. Topics include supervised learning (regression, classification, kernel methods, neural networks, and regularization) and unsupervised learning (clustering, density estimation, and dimensionality reduction). For each topic, mathematical principles, key algorithmic ideas, and implementation will be highlighted.
                 </p>
+                <div class="expand" id="e445" tabindex="0">
+                    Expand Projects
+                </div>
+                <div class="proj" id="p445">
+                    <div id="p4452">
+                        <h3>Image Processing with Neural Networks</h3>
+                        <p>
+                            Constructed a Convolutional Neural Network (CNN) and a Deep Neural Network (DNN) to identify dog breeds from images. Used supervised learning to train the networks and the Pytorch library to construct the models. Utilized the Grad-CAM algorithm and AUROC scores to evaluate models, and experimented with transfer learning and data augmentation to train a model that balances bias and variances.
+                        </p>
+                    </div>
+                </div>
                 <!-- <h4>Grade - A</h4> -->
                 <h3></h3>
             </div>
 
-            <div class="course" id="388" tabindex="0">
+            <div class="course" id="c388" tabindex="0">
                 <h2>EECS 388 - Introduction to Cybersecurity</h2>
                 <p>
                     This course introduces the principles and practices of computer security as applied to software, host systems, and networks. It covers the foundations of building, using, and managing secure systems. Topics include standard cryptographic functions and protocols, threats and defenses for real-world systems, incident responses, and computer forensics. There will be homework exercises, programming projects, and a final exam.
                 </p>
+                <div class="expand" id="e388" tabindex="0">
+                    Expand Projects
+                </div>
+                <div class="proj" id="p388"></div>
             </div>
 
-            <div class="course" id="376" tabindex="0">
+            <div class="course" id="c376" tabindex="0">
                 <h2>EECS 376 - Foundations of Computer Science</h2>
                 <p>
                     An introduction to theory of computation. Models of computation: finite state machines, Turing machines. Decidable and undecidable problems. Polynomial time computability and paradigms of algorithm design. Computational complexity emphasizing NP-hardness. Coping with intractability. Exploiting intractability: cryptography.
                 </p>
             </div>
 
-            <div class="course" id="370" tabindex="0">
+            <div class="course" id="c370" tabindex="0">
                 <h2>EECS 370 - Introduction to Computer Organization</h2>
                 <p>
                     Basic concepts of computer organization and hardware. Instructions executed by a processor and how to use these instructions in simple assembly-language programs. Stored-program concept. Data-path and control for multiple implementations of a processor. Performance evaluation, pipelining, caches, virtual memory, input/output.
                 </p>
             </div>
 
-            <div class="course" id="339" tabindex="0">
+            <div class="course" id="c339" tabindex="0">
                 <h2>SI 339 - Web Design, Development, and Accessibility</h2>
                 <p>
                 This course provides a hands-on approach to learning responsive, accessible front-end programming for Web Design. Topics covered include HTML5, CSS3 (including Bootstrap framework), JavaScript, and the POUR design principles of accessible design.
                 </p>
+                <div class="expand" id="e339" tabindex="0">
+                    Expand Projects
+                </div>
+                <div class="proj" id="p339"></div>
             </div>
 
-            <div class="course" id="281" tabindex="0">
+            <div class="course" id="c281" tabindex="0">
                 <h2>EECS 281 - Data Structures and Algorithms</h2>
                 <p>
                     Introduction to the algorithm analysis and O-notation; Fundamental data structures including lists, stacks, queues, priority queues, hash tables, binary trees, search trees, balanced, trees, and graphs; searching and sorting algorithms; recursive algorithms; basic graph algorithms; introduction to greedy algorithms and divide and conquer strategy. Several programming assignments.
                 </p>
+                <div class="expand" id="e281" tabindex="0">
+                    Expand Projects
+                </div>
+                <div class="proj" id="p281"></div>
             </div>
 
-            <div class="course" id="280" tabindex="0">
+            <div class="course" id="c280" tabindex="0">
             <h2>EECS 280 - Programming and Introductory Data Structures</h2>
                 <p>
                     Algorithm development and effective programming, top-down analysis, structured programming, testing, and program correctness. Program language syntax and static and runtime semantics. Scope, procedure instantiation, recursion, abstract data types, and parameter passing methods. Structured data types, pointers, linked data structures, stacks, queues, arrays, records, and trees.
                 </p>
+                <div class="expand" id="e280" tabindex="0">
+                    Expand Projects
+                </div>
+                <div class="proj" id="p280"></div>
             </div>
 
-            <div class="course" id="203" tabindex="0">
+            <div class="course" id="c203" tabindex="0">
                 <h2>EECS 203 - Discrete Math</h2>
                 <p>
                     Introduction to the mathematical foundations of computer science. Topics covered include: prepositional and predicate logic, set theory, function and relations, growth of functions and asymptotic notation, introduction to algorithms, elementary combinatorics, and graph theory, and discrete probability theory.
@@ -190,5 +220,6 @@
     </span>
     </div>
     <script src="js/copyright.js"></script>
+    <script src="js/projects.js"></script>
 </footer>
 </html>
