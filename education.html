@@ -96,6 +96,12 @@
                             Constructed a Convolutional Neural Network (CNN) and a Deep Neural Network (DNN) to identify dog breeds from images. Used supervised learning to train the networks and the Pytorch library to construct the models. Utilized the Grad-CAM algorithm and AUROC scores to evaluate models, and experimented with transfer learning and data augmentation to train a model that balances bias and variances.
                         </p>
                     </div>
+                    <div id="p4451">
+                        <h3>Predicting Reddit Post Emotions with SVMs</h3>
+                        <p>
+                            Constructed an SVM to identify whether a given Reddit post was "positive" or "negative" in sentiment. Used feature extraction techniques to convert posts into supervised learning training data. Utilized AUROC scores for hyperparameter selection and kernel selection (linear kernel vs quadratic kernel). Utilized squared hinge loss to optimize model on balanced and imbalanced datasets. Utilized one-vs-all methodology to implement a multi-class classifier using binary classifiers.
+                        </p>
+                    </div>
                 </div>
                 <!-- <h4>Grade - A</h4> -->
                 <h3></h3>
@@ -109,7 +115,48 @@
                 <div class="expand" id="e388" tabindex="0">
                     Expand Projects
                 </div>
-                <div class="proj" id="p388"></div>
+                <div class="proj" id="p388">
+                    <div id="p3885">
+                        <h3>Digital Forensics</h3>
+                        <p>
+                            Performed a dead analysis and a live analysis on a dummy computer to collect evidence to put forth a case on a hypothetical individual being guilty or innocent of cyber crimes. Techniques used ranged from SQL injection attacks on a dummy site to a man-in-the-middle attack using an RSA key found via steganography. The "chase" lead to a hidden geocache with travel plans to flee the country, a .onion site of a secret group on the dark web, and even a top-secret Belarussian website.
+                        </p>
+                    </div>  
+                    <div id="p3884">
+                        <h3>Application Security</h3>
+                        <p>
+                            Used assembly code to run malicious code via a target dummy program. Attacks started with simple buffer overflows and increased in difficulty with more defenses, such as data execution prevention (DEP) and address-space layout randomization (ASLR), requiring increasingly complex attacks such as NOP ramps and ROP (Return Oriented Programming) Chains. The project eventually became just a binary file, requiring the use of Ghidra to reverse engineer it into C code.
+                        </p>
+                    </div> 
+                    <div id="p3883">
+                        <h3>Network Security</h3>
+                        <p>
+                            Attacked a dummy network to investigate a cyber attack, starting with finding a suspcious IP using Wireshark. This led to using John the Ripper on Rockyou.txt to find a username with an unsecure password, then using Python to get said user's certificate and eventually crack the Time-based One Time Password (TOTP) to get access to the website and investigate it for evidence of cyber attacks.
+                        </p>
+                    </div>          
+                    <div id="p3882">
+                        <h3>Web Security</h3>
+                        <p>
+                            Attacked a dummy site using a variety of attacks against increasing levels of defense.
+                        </p>
+                        <h4>SQL Injection</h4>
+                        <p>
+                            Utilized to log in as any user in the back-end. Performed against no defense, escaping single quotes (replaced with two single quotes), and a SHA-256 hash applied to the password.
+                        </p>
+                        <h4>Cross-Site Scripting - XSS</h4>
+                        <p>
+                            Utilized to steal a user's username and most recent search on the site. Performed against no defense, removing "script", removing numerous html tags (script, img, body, style, etc.), and removing some punctuation.
+                        </p>
+                        <h4>Cross-Site Request Forgery CSRF</h4>
+                        <p>
+                            Utilized to log a victim onto the dummy site on an attacker's credentials when the user loaded an HTML file. This would allow the potential attacker to monitor the victim's activity on the site. Performed against no defense and token validation via cookie.
+                        </p>
+                    </div>   
+                    <div id="p3881">
+                        <h3>Cryptography</h3>
+                        <p>Conducted a length extension attack to demonstrate the importance of using a MAC with hashing functions. Generated a hash collision on SHA-1 to show it's not a secure hashing function anymore. Conducted a padding oracle attack to decrypt messages encrypted via Cipher-Block Chaining (CBC). Utilized Bliechenbacher's Attack to construct a forged RSA signature that could be used to conduct unauthorized bank transactions through a dummy bank.</p>
+                    </div>
+                </div>
             </div>
 
             <div class="course" id="c376" tabindex="0">
