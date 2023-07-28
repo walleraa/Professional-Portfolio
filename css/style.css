@@ -14,7 +14,12 @@ body{
    padding:5px;
    line-height:1.15;
    color: #FFCB05;
-   background-color:rgba(91, 88, 88, 0.706); 
+   /* background-color:rgba(91, 88, 88, 0.706);  */
+   /* background-color: #000000; */
+   background-image: url("../images/IMG_1185.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 body a{
    color: #00274C;
