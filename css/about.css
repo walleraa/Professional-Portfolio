@@ -20,7 +20,9 @@
     border-radius: 15px;
     padding: 5px 10px 5px 10px;
     margin: 2px auto 2px auto;
-    width: min-content;
+    height: 30px;
+    /* width: min-content; */
+    width: max-content;
  }
 .title h2 {
     display: none;
@@ -136,6 +138,6 @@ main {
         margin-left: 8%;
     }
     .pad {
-        margin-right:8%;
+        margin-right: 8%;
     }
  }

@@ -34,7 +34,7 @@ main {
     color: #00274C;
     text-align: center;
     font-weight: bold;
-    font-family: Garamond, Arial;
+    font-family: Arial;
  }
  h1 {
    margin: 20px 0px 20px 0px;
@@ -47,6 +47,7 @@ main {
  p{
    text-align:center;
    color: #00274C;
+   font-family: arial;
 }
  nav li{
     list-style-type: upper-roman;
@@ -60,6 +61,9 @@ main {
  nav li a {
    color: #FFCB05;
    font-family: Garamond, Arial;
+ }
+ li {
+   font-family: Arial;
  }
  #current{
     background-color: #FFCB05;
