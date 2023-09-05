@@ -89,8 +89,8 @@
 #technologies:hover > ul {
     display: block;
     top: 50%; 
-    transform: translate(0, -34%);
-    margin-top: -25%;
+    transform: translate(0, -33%);
+    margin-top: -27.5%;
 }
 
 #libraries:hover > h2 {
@@ -192,7 +192,7 @@
     display: block;
     top: 50%; 
     transform: translate(0, -34%);
-    margin-top: -25%;
+    margin-top: -15%;
 }
 
 #libraries:focus > h2 {
@@ -206,8 +206,8 @@
 #libraries:focus ul {
     display: block;
     top: 50%;
-    transform: translate(10%, -50.4%);
-    margin-top: -12.5%;
+    transform: translate(10%, -41.4%);
+    margin-top: -17.5%;
 }
 
 /**********************
