@@ -1,0 +1,12 @@
+1. This is a new, custom level featuring a new mechanic: Linked! Use your clone to solve puzzles and fight enemies to reach the end, where a super special surprise awaits!
+
+2. The custom mechanic is Linked, which introduces a pod with a clone Linked to Link. When the player steps on the red plate, the clone busts out of the pod. Link and the clone are linked, so they share similar movement and can fight together, but can also die together. Watch out!
+
+3. The Linked mechanic can add both a puzzle dynamic and an increased intensity to a room depending on its design. The introduction of the clone can lead to unique puzzles that require the player to use the clone to achieve objectives Link alone cannot. The clone also brings an exciting new dimension to combat. The clone lets a player pack double the punch, but with the drawback of having double the hitboxes.
+
+4. The Linked mechanic can change how a player approaches a level. In terms of puzzles, the player now has a wider variety of decisions, as they deal with the inverted horizontal controls and the ability to run one of the player or clone against a wall or water to "desync" them and get them into positions otherwise impossible. In terms of combat, the player might be forced to adapt new strategies to fight off enemies while dealing with normal Link and the confusing inverted clone.
+
+5. We used the first room as an area where the player can play around and learn the clone mechanic. The second room forces the player to understand the basic mechanics of the movement, requiring them to use the clone to progress. In a later room, the player is forced to unlock the clone, then engage in combat in order to get a key needed for progression. There are also rooms to teach the player of the clone teleporter so they can try and solve the following puzzle with it. This results in the player having extensive knowledge on how to maneuver and fight with their clone, and their skills are tested in a final boss fight that requires the normal and clone Link working together.
+
+6. https://jsmargolin.github.io/
+https://walleraa.github.io/Professional-Portfolio/education.html (click on Expand Projects under EECS 494)
