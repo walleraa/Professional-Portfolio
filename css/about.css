@@ -1,5 +1,15 @@
 /* CSS for the mobile view */
-#about {
+main {
+    background-color: #1b1a17;
+    border: 1px solid black;
+}
+h1,h2,h3, p {
+    color: #FFCB05;
+}
+#aaron {
+    padding-bottom: 5px;
+}
+#about p {
     text-align: left;
     margin: 16px auto;
 }
@@ -48,7 +58,7 @@ main {
         padding: 1em;
         padding-left: 0px;
         float: left;
-        shape-outside: polygon(0% 0%, 60% 3%, 61% 45%, 100% 80%, 60% 99%, 6% 100%);
+        /* shape-outside: polygon(0% 0%, 60% 3%, 61% 45%, 100% 80%, 60% 99%, 6% 100%); */
     }
     #about {
         margin: 0% 5% 0% 5%;
@@ -129,6 +139,9 @@ main {
         display: grid;
         grid-template-columns: 50% 50%;
         justify-items: center;
+    }
+    #about {
+        margin-bottom: 45px;
     }
  }
 
