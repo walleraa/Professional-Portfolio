@@ -41,7 +41,7 @@ h1,h2,h3, p {
     margin-bottom: 25px;
 }
 li {
-    color: #00274C;
+    color: #FFCB05;
 }
 main {
     border: 1px solid black;
@@ -89,6 +89,9 @@ main {
         visibility: hidden;
         font-size: 1px;
     }
+    li {
+        color: #00274C;
+    }
 
     .title {
         width: 300px;
@@ -109,16 +112,23 @@ main {
     }
 
     #skills .title h2 {
+        top: 139.65px;
         left: 126.485px;
     }
     #languages .title h2 {
+        top: 139.65px;
         left: 102.49px;
     }
     #technologies .title h2 {
+        top: 139.65px;
         left: 93.66px;
     }
     #libraries .title h2 {
-        left: 111.98px;
+        top: 129.305px;
+        left: 96.97px;
+    }
+    #libraries h2 {
+        top: 90.305px;
     }
  }
 

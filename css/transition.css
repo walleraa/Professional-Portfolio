@@ -104,8 +104,8 @@
 #libraries:hover ul {
     display: block;
     top: 50%;
-    transform: translate(10%, -41.4%);
-    margin-top: -17.5%;
+    transform: translate(10%, -35%);
+    margin-top: -30%;
 }
 
 /**********************
@@ -203,11 +203,12 @@
     display: block;
     margin: 0em 1.5em 0em 0em;
 }
-#libraries:focus ul {
+#libraries:focus > ul {
     display: block;
-    top: 50%;
-    transform: translate(10%, -41.4%);
-    margin-top: -17.5%;
+    top: 50%; 
+    transform: translate(5%, -40%);
+    margin-top: -10%;
+    margin-left: 40%;
 }
 
 /**********************
